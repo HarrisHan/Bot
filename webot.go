@@ -44,7 +44,7 @@ func main() {
 			return
 		}
 
-		time.Sleep(0.1 * time.Second)
+		time.Sleep(1 * time.Second)
 
 		QRCodeImgFile, err := os.Open(imgPath)
 		if err != nil {
